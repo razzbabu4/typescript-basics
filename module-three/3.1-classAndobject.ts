@@ -18,6 +18,7 @@
         }
     }
 
+    // create instance
     const dog = new Animal("German Shepard", "dog", "ghew ghew")
     const cat = new Animal("Mini", "cat", "meaow")
 
