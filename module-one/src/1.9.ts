@@ -27,7 +27,7 @@
     }
 
 
-    // for string or any type
+    // type alias for string or any type
     type UserName = string
     type IsAdmin = boolean
 
@@ -35,7 +35,7 @@
     const isAdmin: IsAdmin = true
 
 
-    // for function: type alias
+    // type alias for function: type alias
 
     type Add = (a: number, b: number) => number
 
