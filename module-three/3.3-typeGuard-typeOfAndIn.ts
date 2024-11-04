@@ -1,6 +1,6 @@
 {
 
-    // type guard
+    // type guard ---> typeof and in
 
     // type guard --> typeof
 
@@ -18,7 +18,7 @@
     console.log(result)
 
 
-    // type in
+    // type in (use for object)
 
     type NormalUser = {
         name: string;
@@ -48,5 +48,5 @@
 
 
 
-    
+
 }

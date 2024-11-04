@@ -39,13 +39,24 @@
     const dog = new Dog("Lallu", "dog")
     const cat = new Cat("Mini", "cat")
 
+    // normal way get instanceof
+    // const getAnimal = (animal: Animal) => {
+    //     if (animal instanceof Dog) {
+    //         animal.makeBarking();
+    //     } else if (animal instanceof Cat) {
+    //         animal.makeMeaw();
+    //     } else {
+    //         animal.makeSound();
+    //     }
+    // };
+
     // using in smart way, should crate function
-    const isDog = (animal: Animal) : animal is Dog => {
+    const isDog = (animal: Animal): animal is Dog => {
         return animal instanceof Dog;  // it can be written also in if-else block
     }
-    
-    const isCat = (animal: Animal) : animal is Cat => {
-        return animal instanceof Cat; 
+
+    const isCat = (animal: Animal): animal is Cat => {
+        return animal instanceof Cat;
     }
 
     const getAnimal = (animal: Animal) => {
@@ -57,20 +68,6 @@
             animal.makeSound();
         }
     };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //
 
 }
