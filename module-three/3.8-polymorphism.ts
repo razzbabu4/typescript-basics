@@ -1,5 +1,5 @@
 {
-    // polymorphism
+    // polymorphism --> when a method/property give output different in different place
 
     class Person {
         getSleep() {
